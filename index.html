@@ -2,9 +2,250 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Colmar Academy></title>
+    <link rel = "icon" href = "./resources/favicon.ico" type = "image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i,800,800i|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
+      rel="stylesheet">
+    <link href = "./resources/styles.css" type = "text/css" rel = "stylesheet">
   </head>
   <body>
+
+    <!-- Header and Nav -->
+    <header>
+
+      <!-- Desktop -->
+      <div class = "desktop">
+        <img src = "./resources/images/ic-logo.svg" alt = "Colmar Academy Logo">
+        <span>COLMAR<span class = "grey">ACADEMY</span></span>
+        <nav>
+          <ul>
+            <li>On campus</li>
+            <li>Online</li>
+            <li>Our companies</li>
+            <li>Sign in</li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- mobile -->
+      <div class = "mobile">
+       <nav>
+        <ul>
+          <img src = "./resources/images/ic-logo.svg" alt = "Colmar Academy Logo">
+          <li><img src = "./resources/images/ic-on-campus.svg" alt = "On Campus Icon"></li>
+          <li><img src = "./resources/images/ic-online.svg" alt = "Online Icon"></li>
+          <li><img src = "./resources/images/ic-login.svg" alt = "Log in Icon"></li>
+        </ul>
+       </nav>
+      </div>
+
+    </header>
+
+    <article>
+
+      <!-- Banner -->
+      <div id = "banner">
+        <div class = "left-col">
+          <img src = "./resources/images/banner.jpg" alt = "People Reading and Writing">
+        </div>
+        <div class = "right-col">
+          <div>
+            <h1>Learn something new everday</h1>
+            <p>Lorem ipsum dolor sit amet, aonsectetur adipiscing elit.</p>
+            <p class = "button">Start Here</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Info -->
+      <div id = "info">
+        <div class = "left-col desktop">
+          <img src = "./resources/images/information-main.jpg" alt = "Man Reading">
+          <h1>It doesn't hurt to keep practicing</h1>
+          <p>"Curabbitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque.
+             Sed non accumsan uran. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+             tristique ligula."</p>
+          <p class = "author">Emanuel, Sr Strategist at Hiring.com</p>
+        </div>
+        <div class = "right-col">
+          <div class = "info-box">
+            <div class = "info-box-img">
+              <img src = "./resources/images/information-orientation.jpg">
+            </div>
+            <div class = "info-txt">
+              <h3>Orientation Date</h3>
+              <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+              <p>Read More</p>
+            </div>
+          </div>
+          <div class = "info-box">
+            <div class = "info-box-img">
+              <img src = "./resources/images/information-campus.jpg">
+            </div>
+            <div class = "info-txt">
+              <h3>Our campus</h3>
+              <p>Find which campus is close by you</p>
+              <p>Read More</p>
+            </div>
+          </div>
+          <div class = "info-box">
+            <div class = "info-box-img">
+            <img src = "./resources/images/information-guest-lecture.jpg">
+            </div>
+            <div class = "info-txt">
+              <h3>Our guest lecture</h3>
+              <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+              <p>Read More</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Courses -->
+      <div id = "course">
+        <h2>Start Learning</h2>
+
+        <!-- Desktop -->
+        <div id = "course-container-desktop" class = "desktop">
+
+          <div class = "course-box desktop">
+            <img src = "./resources/images/course-software.jpg">
+            <div>
+              <h3>Software engineering</h3>
+              <p>COURSES</p>
+              <p>Web Development, Mobile Development, iOT, APIS</p>
+            </div>
+          </div>
+          <div class = "course-box desktop">
+            <img src = "./resources/images/course-computer-art.jpg">
+            <div>
+              <h3>Computer article</h3>
+              <p>COURSES</p>
+              <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+            </div>
+          </div>
+          <div class = "course-box desktop">
+            <img src = "./resources/images/course-design.jpg">
+            <div>
+              <h3>Design</h3>
+              <p>COURSES</p>
+              <p>User Experience Design, User Research, Visual Design</p>
+            </div>
+          </div>
+
+          <div class = "course-box desktop">
+            <img src = "./resources/images/course-data.jpg">
+            <div>
+              <h3>Data</h3>
+              <p>COURSES</p>
+              <p>Data Science, Big Data, SQL, Data Visualization</p>
+            </div>
+          </div>
+          <div class = "course-box desktop">
+            <img src = "./resources/images/course-business.jpg">
+            <div>
+              <h3>Business</h3>
+              <p>COURSES</p>
+              <p>Product Development, Business Development, Startup</p>
+            </div>
+          </div>
+          <div class = "course-box desktop">
+            <img src = "./resources/images/course-marketing.jpg">
+            <div>
+              <h3>Marketing</h3>
+              <p>COURSES</p>
+              <p>Analytics, Content Marketing, Mobile Marketing</p>
+            </div>
+          </div>
+
+         <!-- Mobile -->
+          <div id = "course-container-mobile" class = "mobile">
+
+            <div class = "course-box-mobile">
+              <h3>Software engineering</h3>
+            </div>
+            <div class = "course-box-mobile">
+              <h3>Computer Art</h3>
+            </div>
+            <div class = "course-box-mobile">
+              <h3>Design</h3>
+            </div>
+            <div class = "course-box-mobile">
+              <h3>Data</h3>
+            </div>
+            <div class = "course-box-mobile">
+              <h3>Business</h3>
+            </div>
+            <div class = "course-box-mobile">
+              <h3>Marketing</h3>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Thesis Exhibit -->
+      <div id = "exhibit">
+        <h2>Thesis exhibit</h2>
+
+        <!-- Desktop -->
+        <div id = "exhibit-container" class = "desktop">
+          <div class = "left-col desktop">
+            <video width="100%" controls>
+              <source src = "./resources/videos/thesis.mp4">
+            </video>
+            <div class = "desktop">
+              <h3>Reimagine urban</h3>
+              <p>"Curabbitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque.
+                 Sed non accumsan uran. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+                 tristique ligula."</p>
+            </div>
+          </div>
+          <div class = "desktop">
+            <div class = "exhibit-right-container desktop">
+              <div class ="exhibit-right-img-container">
+                <img src = "./resources/images/thesis-fisma.jpg">
+              </div>
+              <div class ="exhibit-right-txt-container desktop">
+                <div>
+                  <h3>Fisma: Design and Prototype</h3>
+                  <p>Designer showcase of new prototype product</p>
+                </div>
+              </div>
+            </div>
+            <div class = "exhibit-right-container desktop">
+              <div class ="exhibit-right-img-container desktop">
+              <img src = "./resources/images/thesis-now-and-then.jpg">
+              </div>
+              <div class ="exhibit-right-txt-container desktop">
+                <div>
+                  <h3>Now and then</h3>
+                  <p>Research study about New York</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile -->
+        <div class = "mobile">
+          <video width="100%" controls>
+            <source src = "./resources/videos/thesis.mp4">
+          </video>
+        </div>
+
+      </div>
+
+    </article>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2016 Colmar Academy All rights reserved
+        <span>Terms</span>
+        <span>Privacy</span>
+      </p>
+    </footer>
 
   </body>
 </html>
